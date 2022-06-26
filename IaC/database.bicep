@@ -1,6 +1,6 @@
 param sqlServerName string
 param sqlDatabaseName string
-param location string = resourceGroup().location
+param location string = 'australiasoutheast'
 param DbAdmins string
 param tenantId string
 param adminPassword string
